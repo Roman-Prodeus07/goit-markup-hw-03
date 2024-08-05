@@ -46,6 +46,16 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.site-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -84,6 +94,19 @@ header {
     color: var(--white-color);
 }
 
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    padding: 24px 0;
+}
+
 .contact-info ul {
     display: flex;
     gap: 20px;
@@ -95,12 +118,22 @@ header {
     text-decoration: none;
 }
 
+.contact-info .contact-list {
+    display: flex;
+    gap: 40px;
+}
+
 /* Hero Section */
 .hero-section {
     text-align: center;
     padding: 50px 0;
     background-color: var(--primary-color);
     color: var(--white-color);
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 .main-title {
