@@ -43,6 +43,7 @@ ul {
 /* Хедер */
 header {
     background-color: var(--white-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .navigation {
@@ -119,7 +120,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: darken(var(--secondary-color), 10%);
+    background-color: #3e4ae0; /* Adjusted slightly darker */
 }
 
 /* Секція Our Services */
@@ -235,4 +236,11 @@ header {
     margin-top: 10px;
     max-width: 500px;
     margin: 0 auto;
+}
+
+/* Зображення */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
