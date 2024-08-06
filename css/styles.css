@@ -30,7 +30,11 @@ ul {
 
 /* Скидання полів і відступів */
 .section {
-    padding: 188px 0 188px; /* Updated padding */
+    padding: 188px 0 188px; 
+}
+
+.section-title {
+    margin-bottom: 72px; 
 }
 
 /* Загальний контейнер */
@@ -192,6 +196,7 @@ header {
 /* Секція Our Team */
 .team-section {
     text-align: center;
+    padding: 120px 0 120px;
 }
 
 .team {
@@ -201,11 +206,36 @@ header {
     gap: 20px;
 }
 
+.team-name {
+    text-align: center; 
+    margin-bottom: 8px;
+}
+
+.team-position {
+    text-align: center; 
+}
+
+.team-list {
+    display: flex;
+    gap: 24px; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}    
+
 .team-member {
     max-width: 264px;
     text-align: center;
+    margin-right: 24px;
 }
 
+.team-member:last-child {
+    margin-right: 0;
+}
+
+.team-info {
+    border-radius: 0 0 4px 4px; 
+    padding: 32px 0;
+}
 .team-member-title {
     font-size: 20px;
     margin-top: 15px;
@@ -319,8 +349,8 @@ img {
 .services-list {
     display: flex;
     gap: 24px;
-    justify-content: space-between; /* Added spacing */
-    flex-wrap: wrap; /* Optional: to ensure items wrap on smaller screens */
+    justify-content: space-between; 
+    flex-wrap: wrap; 
 }
 
 .service-item {
