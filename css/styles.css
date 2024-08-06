@@ -304,3 +304,10 @@ img {
     border: 0;
 }
 
+.special-class {
+    width: calc((100% - 72px) / 4);
+}
+
+.service-title {
+    margin-bottom: 8px;
+}    
