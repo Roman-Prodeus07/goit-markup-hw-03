@@ -311,3 +311,7 @@ img {
 .service-title {
     margin-bottom: 8px;
 }    
+
+.strategy {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
